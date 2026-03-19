@@ -1,0 +1,75 @@
+2026-03-19 18:44:26,773 - trading_bot - INFO - Trading Bot CLI started
+2026-03-19 18:51:46,024 - trading_bot - INFO - Trading Bot CLI started
+2026-03-19 18:51:46,027 - trading_bot.orders - INFO - Validated order request: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.001,
+  "price": null
+}
+2026-03-19 18:51:46,600 - trading_bot.client - INFO - Binance Futures Testnet client initialized successfully
+2026-03-19 18:51:46,601 - trading_bot.client - INFO - Creating MARKET BUY order: symbol=BTCUSDT, quantity=0.001
+2026-03-19 18:51:47,597 - trading_bot.client - ERROR - Failed to create market order: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-19 18:51:47,601 - trading_bot - ERROR - MARKET order failed: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-19 18:53:25,060 - trading_bot - INFO - Trading Bot CLI started
+2026-03-19 18:53:25,063 - trading_bot.orders - INFO - Validated order request: {
+  "symbol": "BTCUSDT",
+  "side": "SELL",
+  "type": "LIMIT",
+  "quantity": 0.001,
+  "price": 65000.0
+}
+2026-03-19 18:53:25,496 - trading_bot.client - INFO - Binance Futures Testnet client initialized successfully
+2026-03-19 18:53:25,497 - trading_bot.client - INFO - Creating LIMIT SELL order: symbol=BTCUSDT, quantity=0.001, price=65000.0
+2026-03-19 18:53:26,538 - trading_bot.client - ERROR - Failed to create limit order: APIError(code=-4024): Limit price can't be lower than 65885.83.
+2026-03-19 18:53:26,538 - trading_bot - ERROR - LIMIT order failed: APIError(code=-4024): Limit price can't be lower than 65885.83.
+2026-03-19 18:55:32,586 - trading_bot - INFO - Trading Bot CLI started
+2026-03-19 18:55:32,588 - trading_bot.orders - INFO - Validated order request: {
+  "symbol": "BTCUSDT",
+  "side": "SELL",
+  "type": "LIMIT",
+  "quantity": 0.001,
+  "price": 65000.0
+}
+2026-03-19 18:55:33,068 - trading_bot.client - INFO - Binance Futures Testnet client initialized successfully
+2026-03-19 18:55:33,068 - trading_bot.client - INFO - Creating LIMIT SELL order: symbol=BTCUSDT, quantity=0.001, price=65000.0
+2026-03-19 18:55:33,617 - trading_bot.client - ERROR - Failed to create limit order: APIError(code=-4024): Limit price can't be lower than 65800.56.
+2026-03-19 18:55:33,617 - trading_bot - ERROR - LIMIT order failed: APIError(code=-4024): Limit price can't be lower than 65800.56.
+2026-03-19 18:56:12,288 - trading_bot - INFO - Trading Bot CLI started
+2026-03-19 18:56:12,291 - trading_bot.orders - INFO - Validated order request: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.002,
+  "price": null
+}
+2026-03-19 18:56:13,177 - trading_bot.client - INFO - Binance Futures Testnet client initialized successfully
+2026-03-19 18:56:13,178 - trading_bot.client - INFO - Creating MARKET BUY order: symbol=BTCUSDT, quantity=0.002
+2026-03-19 18:56:13,475 - trading_bot.client - ERROR - Failed to create market order: APIError(code=-2014): API-key format invalid.
+2026-03-19 18:56:13,475 - trading_bot - ERROR - MARKET order failed: APIError(code=-2014): API-key format invalid.
+2026-03-19 18:56:40,142 - trading_bot - INFO - Trading Bot CLI started
+2026-03-19 18:56:40,144 - trading_bot.orders - INFO - Validated order request: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.002,
+  "price": null
+}
+2026-03-19 18:56:40,755 - trading_bot.client - INFO - Binance Futures Testnet client initialized successfully
+2026-03-19 18:56:40,756 - trading_bot.client - INFO - Creating MARKET BUY order: symbol=BTCUSDT, quantity=0.002
+2026-03-19 18:56:41,699 - trading_bot.client - INFO - Market order successful: orderId=12879859374
+2026-03-19 18:56:41,700 - trading_bot.orders - INFO - Order placed successfully. Response: {'orderId': 12879859374, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJa3e5f8f618d027c17575a4', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773926801515}
+2026-03-19 18:56:41,704 - trading_bot - INFO - CLI market command completed successfully
+2026-03-19 18:56:51,169 - trading_bot - INFO - Trading Bot CLI started
+2026-03-19 18:56:51,171 - trading_bot.orders - INFO - Validated order request: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.002,
+  "price": null
+}
+2026-03-19 18:56:51,513 - trading_bot.client - INFO - Binance Futures Testnet client initialized successfully
+2026-03-19 18:56:51,513 - trading_bot.client - INFO - Creating MARKET BUY order: symbol=BTCUSDT, quantity=0.002
+2026-03-19 18:56:52,258 - trading_bot.client - INFO - Market order successful: orderId=12879859903
+2026-03-19 18:56:52,259 - trading_bot.orders - INFO - Order placed successfully. Response: {'orderId': 12879859903, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJadbd5027e5d94ee3697137', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773926812111}
+2026-03-19 18:56:52,261 - trading_bot - INFO - CLI market command completed successfully
